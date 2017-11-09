@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <style type="text/css" media="screen">
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .panel {
+
+            width: 100%;
+            text-align: center;
+        }
+
+        div.image {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .Center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+          background-color: #AFDFDF;
+          border: none;
+          font-size: 18px;
+          width: 250px;
+          opacity: 0.80;
+          margin: 0 auto;
+          float: none;
+
+        }
+
+        #text {
+          z-index: 100;
+          position: top center;
+          color: #74B8BB;
+          font-size: 24px;
+          font-weight: bold;
+          font: font-family: "Arial Black";
+        }
+
+        #first-div {
+            height: 45vh;
+        }
+
+        #second-div {
+            height: 25vh;
+            background-color: #A9927D;
+            text-align: center;
+        }
+
+        #third-div {
+            height: 30vh;
+            background-color: #300B00;
+            text-align: center;
+        }
+    }
+    </style>
+</head>
+
+
+  <body>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        // the is a console log function, in the browsers console (google developer tools)
+        // it'll print a message saying "working", if you see the message, then you know your js is working
+        console.log("Working");
+
+
+      });
+    </script>
+
+    <div id= "first-div" class = "panel">
+        <img id = "image" src= "javacoffee.jpg" alt = "Coffee cup"></img>
+    </div>
+
+    <div id = "second-div" class = "panel">
+        </br> </br> </br> </br>
+        <a href= "MoodPage.html"> <button type = "button" button class = button> MOOD </button> </a>
+
+    </div>
+
+    <div id = "third-div" class = "panel">
+        </br> </br> </br> </br> </br>
+        <a href = "IntroPage.html"> <button type = "button" button class = button > INFO </button> </a>
+
+    </div>
+  </body>
+</html>

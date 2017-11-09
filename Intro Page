@@ -1,0 +1,63 @@
+
+<!doctype html>
+
+<html>
+  <head>
+  <style type="text/css" media="screen">
+
+      body{
+        background-color: #D8D8D8;
+    	}
+
+
+      h1 {
+        color: #300B00;
+        font-family: Futura;
+        font-weight: bold;
+        font-size: 45px;
+      }
+
+      h3 {
+         color: #A9927D;
+         font-family: Futura;
+         font-size: 16px;
+      }
+
+      p {
+        color: #300B00;
+        font-family: Futura;
+        font-size: 14px;
+      }
+  </style>
+</head>
+
+  <body>
+      <img style="display: inline;" src="coffeeIcon.jpg" alt="logo" />
+      <h1 style="display: inline;">Coffee Info</h1>
+
+    </br> </br>
+
+        <p> Not sure what those fancy names mean? </p>
+        <p> We're here to help! </p>
+
+      </br>
+
+      <h3> Macchiato: </h3>
+        <p> Espresso is poured on top instead of being stirred into the drink. </p>
+
+      <h3> Americano: </h3>
+        <p> Made from espresso and water only. </p>
+
+      <h3> Frappuccino: </h3>
+        <p> Blended drinks, typically made with coffee. Often come with whipped cream and drizzle. </p>
+
+      <h3> Latte: </h3>
+        <p> Made with steamed milk and shots of espresso, with any flavor of milk, and can be hot or cold. </p>
+
+      <h3> Mocha: </h3>
+        <p> Are like lattes, they are made of espressos and milk, but tend to include chocolate. </p>
+
+      <h3> Cappuccino: </h3>
+        <p> Made solely of steamed milk and espresso, but tend to be mainly comprised of foam. </p>
+  </body>
+</html>

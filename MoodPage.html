@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <style type="text/css" media="screen">
+
+      body{
+      	margin:0;
+      	padding:0;
+      	height:100%;
+      	font-family: "Futura", Sans-serif;
+    	}
+
+    	.panel {
+
+    		width:100%;
+    		text-align:center;
+    	}
+
+    	.button {
+    	  background-color: #AFDFDF;
+    		color: white;
+        font-family: Futura;
+    		padding: 15px 32px;
+    		font-size: 18;
+        width: 250px;
+        margin: 15px;
+
+    	}
+
+    	.main-button {
+    	   background-color: #74B8BB;
+    	   border: none;
+         padding-top: 20px;
+         font-family: Futura, Sans-serif;
+         font-size: 36px;
+         color: white;
+    	}
+
+      h1 {
+        padding-top: 20px;
+        font-size: 36px;
+        font-family: Futura;
+      }
+
+    	#first-div {
+         height: 15vh;
+    	   background-color:#300B00;
+    	   font-size:50px;
+    	   color:white;
+    	}
+
+    	#second-div {
+        padding-top: 50px;
+         height: 60vh;
+    		 background-color:#F3E9DC;
+
+    	}
+
+    	#third-div {
+         height: 15vh;
+    	   background-color:#74B8BB;
+    	}
+
+  </style>
+</head>
+
+    <body>
+
+        <div id="first-div" class="panel">
+          <h1> MOOD </h1>
+        </div>
+
+        <div id="second-div" class="panel">
+            <button type="button", class="button" id="chocolate"> Chocolate </button>
+          </br>
+
+          <button type="button", class="button" id="fruity"> Fruity </button>
+          </br>
+
+          <button type="button", class="button" id="Blended"> Blended </button>
+          </br>
+
+          <button type="button", class="button" id="noncoffee"> Non-coffee </button>
+          </br>
+        </div>
+
+        <div id="third-div" class="panel">
+            <button type="button", class="main-button"> Surprise Me! </button>
+        </div>
+        <script src="index.js"></script>
+
+    </body>
+</html>
